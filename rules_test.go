@@ -184,7 +184,7 @@ func TestReaderBZIP2(t *testing.T) {
 	}
 }
 
-// See https://github.com/hillu/go-yara/issues/5
+// See https://github.com/Codehardt/go-yara/issues/5
 func TestScanMemCgoPointer(t *testing.T) {
 	r := makeRules(t,
 		"rule test : tag1 { meta: author = \"Hilko Bengen\" strings: $a = \"abc\" fullword condition: $a }")

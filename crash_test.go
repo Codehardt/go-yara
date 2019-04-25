@@ -40,7 +40,7 @@ func TestRulesFinalizer(t *testing.T) {
 	t.Log("Did not crash due to yr_*_destroy() being called twice. Yay.")
 }
 
-// Adapted from test in https://github.com/hillu/go-yara/issues/22
+// Adapted from test in https://github.com/Codehardt/go-yara/issues/22
 func TestCompilerCrash(t *testing.T) {
 	done := make(chan bool)
 	go func(t *testing.T, done <-chan bool) {

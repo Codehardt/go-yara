@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/hillu/go-yara"
+	"github.com/Codehardt/go-yara"
 
 	"errors"
 	"flag"
