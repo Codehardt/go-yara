@@ -6,9 +6,7 @@
 
 package yara
 
-import "github.com/Codehardt/go-yara/internal/callbackdata"
-
-var callbackData = callbackdata.MakePool(256)
+var callbackData = makecbPool(256)
 
 func toint64(number interface{}) int64 {
 	switch number.(type) {
