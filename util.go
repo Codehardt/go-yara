@@ -6,9 +6,7 @@
 
 package yara
 
-import (
-	"github.com/Codehardt/go-yara/internal/callbackdata"
-)
+import "github.com/Codehardt/go-yara/internal/callbackdata"
 
 var callbackData = callbackdata.MakePool(256)
 
